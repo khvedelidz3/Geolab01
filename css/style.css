@@ -1,0 +1,270 @@
+/*Navigation*/
+  .nav-link{
+	font-family: "Montserrat Bold", sans-serif;
+      color: #555555;
+}
+
+.font{
+    font-family: "Montserrat Bold", sans-serif;
+    font-weight: bold;
+}
+
+/*Slider*/
+.carousel-img{
+    width:100%;
+    height:460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-on-banner{
+    position: absolute;
+    font-family: "Montserrat Bold", sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    margin-left: 33%;
+    margin-right: 33%;
+    font-size: 45px;
+}
+
+
+/*Service list section*/
+
+.service {
+	text-align: center;
+
+}
+
+.service-list{
+    padding-top: 50px;
+}
+
+.service-items{
+    height: 215px;
+    width: 315px;
+
+}
+
+.service-items img{
+    height: 55px;
+    width: 55px;
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-bottom: 30px;
+}
+
+
+/* Ocean img section */
+.ocean-section{
+    padding-top: 100px;
+}
+
+
+.bg-img{
+    height: 616px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+.text-on-img {
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 18%;
+    font-size: 30px;
+    margin: 20px 10px 5px 4px;
+}
+
+/* Project List Section*/
+.projects{
+    padding-top: 90px;
+}
+
+.latest-project{
+    padding-top: 100px;
+}
+
+.project-list{
+
+    max-height: 500px;
+    width: 300px;
+
+}
+
+.details{
+    color: #9fd49b;
+    font-weight: bold;
+}
+.details:hover{
+    color:#9fd49b;
+}
+
+/*Culture section*/
+
+.culture-section{
+    padding-top: 150px;
+}
+
+.culture{
+    text-align: center;
+}
+
+.culture-list{
+    padding-top: 50px;
+}
+
+.culture-items{
+    max-height: 300px;
+    width: 315px;
+    text-align: center;
+}
+
+.culture-items img{
+    margin:20px auto;
+}
+
+/* Clients comment section*/
+.clients{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.second-comment{
+    padding-top: 100px;
+}
+
+/*Contact box section*/
+.contact{
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+.contact-box{
+    height: 250px;
+    background-color: #7cc576;
+}
+
+.contact-box h3{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.button-text{
+    background: #7cc576;
+    border: 3px solid white;
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-left:43%;
+    color: white;
+}
+
+.button-text:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Footer*/
+.footer{
+    max-height: 1420px;
+    background: #222222;
+}
+
+.contact-us, .latest-posts, .latest-tweets{
+    color: white;
+}
+
+.map-text, .mobile, .email, .id-text,
+.picture-text, .play-text, .tweet-text{
+    color: white;
+    font-size:19px;
+}
+.map-icon, .mobile-icon, .email-icon, .id-icon,
+.picture-icon, .play-icon, .tweet-icon{
+    color:white;
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.latest-tweets{
+    font-size: 24px;
+}
+
+.date{
+    font-size: 16px;
+}
+
+.copyright{
+    height: 100px;
+    background: white;
+}
+.copyright-text{
+    margin-top:38px;
+}
+
+/*Blog section*/
+.blog{
+    padding-top: 50px;
+
+    padding-bottom: 60px;
+}
+.blog-container{
+    max-height:100%;
+    /*background: #0c5460;*/
+}
+
+.post-details{
+    text-align: right;
+    color: #005cbf;
+}
+.post-details:hover{
+    text-decoration: none;
+}
+
+.blog-post{
+    padding-top: 50px;
+}
+
+.person{
+    color: #6f42c1;
+}
+.person-link:hover{
+    text-decoration: none;
+}
+
+.search{
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+@media(max-width:1200px){
+	.project-list {
+		max-width:100%;
+	}
+}
+
+@media (max-width: 1200px) {
+    .project-list{
+        text-align: center;
+    }
+}
+
+@media(max-width: 770px){
+	.about-us-text{
+		flex-direction: column;
+	}
+}
+
+@media(max-width: 523px){
+    .contact-box{
+        height: 350px;
+    }
+}
+
+
